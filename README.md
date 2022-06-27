@@ -1,12 +1,6 @@
 # Card Hover Effects Responsive
 
-## En proceso
 
+[Click para ver online](https://sebagnh.github.io/Card-Hover-Effects-v4/ "Link para ver online")
 
-
-<!--
-Verificar el centrado del contenido de las tarjetas del li
-
-
-
- -->
+![Muestra](./img/muestra-card-hover-4v-2.gif "Muestra del sitio web")
