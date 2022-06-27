@@ -7,7 +7,7 @@
 
 body {
   background-color: #292929;
-  color: #fff;
+  color: #000;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
@@ -26,6 +26,32 @@ body {
 }
 .cards-container li {
   list-style: none;
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background-color: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.cards-container li:hover {
+  height: 420px;
+}
+.cards-container li .img-box {
+  position: relative;
+  width: 260px;
+  heigth: 260px;
+  top: -60px;
+  left: 4.5px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.cards-container li .img-box img {
+  max-width: 100%;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

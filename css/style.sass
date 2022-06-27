@@ -6,7 +6,7 @@
 
 body
     background-color: #292929
-    color: #fff
+    color: #000
     font-family: 'Poppins', sans-serif
     display: flex
     justify-content: center
@@ -21,6 +21,33 @@ body
     align-items: center
     flex-wrap: wrap
     padding: 30px
-    li
+    li //.card
         list-style: none
-        
+        position: relative
+        max-width: 300px
+        //height: 420px //Este es el tamaño que usará en hover
+        height: 215px
+
+        background-color: #fff
+        margin: 30px 10px
+        padding: 20px 15px //Al darle padding dio la impresión de centrar la imagen
+        display: flex
+        flex-direction: column
+        box-shadow: 0 5px 20px rgba(#000,.5)
+        transition: .3s ease-in-out
+        &:hover
+            height: 420px
+        .img-box
+            position: relative
+            width: 260px
+            heigth: 260px
+            top: -60px
+            left: 4.5px
+            box-shadow: 0 5px 20px rgba(#000,.2)
+            z-index: 1
+            img
+                max-width: 100%
+                border-radius: 5px
+        .content
+            //
+
