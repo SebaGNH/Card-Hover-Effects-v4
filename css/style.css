@@ -40,11 +40,17 @@ body {
 .cards-container li:hover {
   height: 420px;
 }
+.cards-container li:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
 .cards-container li .img-box {
   position: relative;
   width: 260px;
   heigth: 260px;
-  top: -60px;
+  top: -80px;
   left: 4.5px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -52,6 +58,16 @@ body {
 .cards-container li .img-box img {
   max-width: 100%;
   border-radius: 5px;
+}
+.cards-container li .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */

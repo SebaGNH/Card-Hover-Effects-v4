@@ -37,11 +37,17 @@ body
         transition: .3s ease-in-out
         &:hover
             height: 420px
+            .content
+                visibility: visible
+                opacity: 1
+                margin-top: -40px
+                transition-delay: .3s
         .img-box
             position: relative
             width: 260px
             heigth: 260px
-            top: -60px
+            //top: -60px
+            top: -80px
             left: 4.5px
             box-shadow: 0 5px 20px rgba(#000,.2)
             z-index: 1
@@ -49,5 +55,12 @@ body
                 max-width: 100%
                 border-radius: 5px
         .content
-            //
+            position: relative
+            margin-top: -140px
+            padding: 10px 15px
+            text-align: center
+            color: #111
+            visibility: hidden
+            opacity: 0
+            transition: .3s ease-in-out
 
